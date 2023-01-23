@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@300;400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.header {
+    height: 220px;
+    background: radial-gradient(81.98% 3529.17% at 7.89% 23.85%, rgba(222, 43, 43, 0.25) 0%, rgba(0, 0, 0, 0) 100%), rgba(45, 47, 90, 0.99);
+    text-align: center;
+}
+
+.title {
+    color: white;
+    font-size: 60px;
+    padding-top: 20px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+input {
+    padding: 15px;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 1;
+    border-radius: 20px;
+}
+
+button {
+    height: 54px;
+    border-radius: 10px;
+    width: 145px;
+    font-size: 20px;
+    color: white;
+    background: #860707;
+    border: none;
+    cursor: pointer;
+
+    transition: background-color 0.2s ease-in;
+}
+
+button:hover {
+    background: #991e1e;
+
+}
+
+/*Card*/
+
+.card {
+    position: relative;
+    width: 500px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 20px 10px 50px 10px rgba(78, 0, 74, 0.89);
+    margin: 43px auto;
+}
+
+.card::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: calc(100% - 20px);
+    left: 10px;
+    bottom: -10px;
+    height: 100%;
+    box-shadow: 20px 10px 50px 10px rgba(78, 0, 74, 0.40);
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.card-city {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 74px;
+}
+
+.card-city span {
+    display: inline-block;
+    background: #F32A2A;
+    border-radius: 26px;
+    color: white;
+
+}
+
+.card-weather {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-value {
+    font-weight: 400;
+    font-size: 100px;
+
+}
+
+.card-descr {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 60px;
+}
+
+
+.footer {
+    background: radial-gradient(81.98% 3529.17% at 7.89% 23.85%, rgba(222, 43, 43, 0.25) 0%, rgba(0, 0, 0, 0) 100%), rgba(45, 47, 90, 0.99);
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    padding: 15px 30px;
+    color: white;
+    width: 20%;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.footer span {
+    color: #F32A2A;
+}
+
+
+img {
+    width: 200px;
+    height: auto;
+}
+
